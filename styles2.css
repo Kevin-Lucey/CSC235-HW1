@@ -1,0 +1,213 @@
+table.header{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+table.nav{
+    border: 0px;
+    margin: 0px;
+    padding-right: 100px;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    background-color:rgba(91, 38, 113, 0.694);
+}
+td.navR{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+td.navI {
+    color: white;
+    background-color:rgba(150, 81, 172, 0.694);
+    border-right: 2px solid black;
+}
+td.navIH {
+    color:rgb(188, 188, 91);
+    background-color:rgba(56, 4, 74, 0.694);
+    border-right: 2px solid black;
+}
+td.title{
+    color:rgb(186, 65, 205);
+    text-shadow: 5px 5px 4px rgba(169, 169, 169, 0.859);
+}
+#logo{
+    height: 150px;
+    width: 200px;
+}
+div.mid{
+    height: fit-content;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-bottom: -100%;
+    border: 0px;
+    padding: 0px;
+    position:absolute;
+    overflow: auto;
+}
+div.left {
+    background-color: rgb(234, 144, 144);
+    width: 40%;
+    float: left;
+    height: 80%;
+}
+div.right {
+    background-color:white;
+    width: 60%;
+    height: 80%;
+    float: left;
+}
+div.footer {
+    background-image: url("images/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    float: left;
+    border: 0px;
+    padding: 20px;
+}
+div.p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top:10px;
+    font-family: Georgia, serif;
+    font-size: 10pt;
+}
+div.columnTitleL {
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgba(169, 67, 169, 0.667),rgb(234, 144, 144));
+    font-family:verdana;
+    letter-spacing:2px;
+    font-weight:500;
+}
+div.outlineDiv {
+    border-style: dotted;
+}
+div.outlineDiv1{
+    border-style: dotted;
+    margin-bottom: 10px;
+}
+img.outlineImg{
+    margin-left: 20px;
+    border: 2px solid purple;
+}
+img.outlineImgR{
+    width: 70%;
+    height: 15%;
+    margin-left: 70px;
+    border: 2px solid purple;
+}
+figcaption {
+    margin-left: 70px;   
+    margin-bottom: 30px;
+    background-color: white; 
+}
+div.p2{
+    padding:0px;
+    width: 400px;
+    font-size: 0.7em;
+    color: rgb(240, 229, 171);
+    font-family: Georgia, serif;
+    font-size: 10pt;
+}
+div.overlineWord{
+    margin-left: 20px;
+    text-decoration: overline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+div.bubble {
+    border-radius: 25px;
+    background: #a985f2;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+    float: left;
+    text-align: left;
+}
+div.c {
+    float: left;
+    vertical-align: middle;
+    display: table-cell;
+    vertical-align:middle;
+}
+div.d {
+    float: left;
+    vertical-align: middle;
+    background-color: grey;
+    display: table;
+}
+div.overlineWord2{
+    text-decoration: overline;
+    text-decoration-thickness: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight:600
+}
+div.overlineWordR{
+    text-decoration: overline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    font-weight: 600;
+}
+div.p3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    border-top:0px;
+    padding-left: 70px;
+    font-family: Georgia, serif;
+    font-size: 10pt;
+}
+div.columnTitleR{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    margin-bottom: 10px;
+    background-color:white;
+    font-family:verdana;
+    letter-spacing:2px;
+    font-weight:500;
+}
+div.columnTitleR2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    margin-bottom: 10px;
+    background-image:linear-gradient(rgba(249, 249, 0, 0.749),white);
+    font-family:verdana;
+    letter-spacing:2px;
+    font-weight:500;
+}
+table.f {
+    margin-left:70px;
+}
+span.g {
+    color:grey;
+}
+div.p4{
+    margin-top:10px;
+    padding-top:10px;
+    margin-left:10px;
+    font-family: Georgia, serif;
+    font-size: 10pt;
+}
+span.user {
+    font-family:courier;
+    font-weight:900;
+}
